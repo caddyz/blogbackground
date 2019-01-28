@@ -7,7 +7,7 @@ spring:
   redis:
     host: 39.96.201.193
     port: 6379
-    password: crmfoo
+    password: kaiserblog
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://39.96.201.193:3306/blog?useUnicode=true&characterEncoding=UTF-8&userSSL=false&tinyIntlisBit=true&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL

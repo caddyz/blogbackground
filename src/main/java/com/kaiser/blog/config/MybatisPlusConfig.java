@@ -5,9 +5,17 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * <p>
+ *
+ * </p>
+ *
+ * @author Kaiser
+ * @since 2019-01-26
+ */
 @Configuration
 @MapperScan("xyz.kaiser.demo.mapper")
-public class MbatisPlusConfig {
+public class MybatisPlusConfig {
     /**
     分页插件
      */

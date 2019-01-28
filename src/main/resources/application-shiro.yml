@@ -1,0 +1,10 @@
+shiro:
+  loginUrl: /blog/401
+  unauthorizedUrl: /blog/page/403
+  successUrl: /blog/page/index
+
+
+
+
+
+

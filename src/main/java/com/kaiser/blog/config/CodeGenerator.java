@@ -1,3 +1,4 @@
+/*
 package com.kaiser.blog.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
@@ -9,10 +10,12 @@ import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 
+*/
 /**
  * author:KarserZ
  * datetime:2018-12-11
- */
+ *//*
+
 public class CodeGenerator {
     public static final String DB_URL = "jdbc:mysql://39.96.201.193:3306/blog?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false";
     public static final String USER_NAME = "root";
@@ -24,9 +27,11 @@ public class CodeGenerator {
     //包名，会按照com/example/demo这种形式生成类
     public static final String PACKAGE = "com.kaiser.blog";
 
-    /*
-    TODO 更多配置请参考http://mp.baomidou.com/#/generate-code
     */
+/*
+    TODO 更多配置请参考http://mp.baomidou.com/#/generate-code
+    *//*
+
     public void generateByTables(boolean serviceNameStartWithI, String... tableNames) {
         GlobalConfig config = new GlobalConfig();
         DataSourceConfig dataSourceConfig = new DataSourceConfig();
@@ -66,3 +71,4 @@ public class CodeGenerator {
     }
 
 }
+*/

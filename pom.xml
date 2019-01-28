@@ -24,12 +24,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
-        <!--&lt;!&ndash;shiro&ndash;&gt;
+        <!--shiro-->
         <dependency>
             <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-spring-boot-starter</artifactId>
+            <artifactId>shiro-spring-boot-web-starter</artifactId>
             <version>1.4.0</version>
-        </dependency>-->
+        </dependency>
         <!--web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -123,7 +123,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.0.6</version>
+            <version>3.0.7.1</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
